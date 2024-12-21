@@ -1,0 +1,5 @@
+PROJECT_NAME = "riscv-emulator"
+INPUT = ../include ../src
+RECURSIVE = YES
+OUTPUT_DIRECTORY = ../doc/doxygen
+GENERATE_LATEX = NO

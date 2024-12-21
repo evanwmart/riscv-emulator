@@ -10,3 +10,14 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+build/
+*.o
+*.out
+*.obj
+*.exe
+*.bin
+CMakeCache.txt
+CMakeFiles/
+.vscode/
+.DS_Store
