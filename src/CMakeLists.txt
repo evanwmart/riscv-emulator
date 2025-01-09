@@ -3,6 +3,7 @@ add_library(emulator_core
   cpu_state.cpp
   memory.cpp
   profiler.cpp
+  execution_engine.cpp # Add this line
   # Add more source files as they are implemented
 )
 target_include_directories(emulator_core PUBLIC ${CMAKE_SOURCE_DIR}/include)
